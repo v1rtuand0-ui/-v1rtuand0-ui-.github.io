@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Website Ulang Tahun Interaktif</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="fixed-global-bg"></div>
+
+    <div class="container">
+
+        <section id="halaman1" style="z-index: 60;">
+            <img src="Purple and Pink Dynamic Happy Birthday Greetings Instagram Post (2).png" 
+                 class="hero-img center-image" 
+                 alt="Birthday Graphic Main" 
+                 fetchpriority="high">
+                 
+            <img src="Purple and Pink Dynamic Happy Birthday Greetings Instagram Post (1).png" 
+                 class="hero-img second-image" 
+                 alt="Birthday Graphic 2">
+     
+            <img src="Purple and Pink Dynamic Happy Birthday Greetings Instagram Post.png" 
+                 class="hero-img third-image" 
+                 alt="Birthday Graphic 3">
+                 
+            <img src="Purple and Pink Dynamic Happy Birthday Greetings Instagram Post (9).png" 
+                 class="hero-img fourth-image" 
+                 alt="Birthday Graphic 4">
+        </section>
+
+        <section id="halaman2" style="z-index: 50;">
+            <div class="wrapper-halaman-2">
+                <h1 id="cake-title">Happy Birthday!</h1>
+
+                <div class="cake-container">
+                    <div class="candles-container">
+                        <div class="candle-wrapper-1">
+                            <div class="candle-num num-1"></div>
+                            <div class="wick"></div>
+                            <div class="flame" id="flame1"></div>
+                            <div class="smoke" id="smoke1"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="layer layer-top">
+                        <div class="icing-top">
+                            <div class="drip-t dt1"></div>
+                            <div class="drip-t dt2"></div>
+                            <div class="drip-t dt3"></div>
+                        </div>
+                        <div class="sprinkle sp-t1"></div>
+                        <div class="sprinkle sp-t2"></div>
+                    </div>
+
+                    <div class="layer layer-middle">
+                        <div class="icing-middle">
+                            <div class="drip-m dm1"></div>
+                            <div class="drip-m dm2"></div>
+                            <div class="drip-m dm3"></div>
+                        </div>
+                        <div class="sprinkle sp-m1"></div>
+                        <div class="sprinkle sp-m2"></div>
+                        <div class="sprinkle sp-m3"></div>
+                    </div>
+
+                    <div class="layer layer-bottom">
+                        <div class="icing-bottom">
+                            <div class="drip-b db1"></div>
+                            <div class="drip-b db2"></div>
+                            <div class="drip-b db3"></div>
+                            <div class="drip-b db4"></div>
+                        </div>
+                        <div class="sprinkle sp-b1"></div>
+                        <div class="sprinkle sp-b2"></div>
+                    </div>
+                </div>
+                <p class="instruction">Tap kuenya untuk meniup lilin!</p>
+            </div>
+        </section>
+
+        <section id="halaman3" style="z-index: 20;">
+            <img src="92222.png" 
+                 class="image-halaman-2 hero-img" 
+                 loading="lazy" 
+                 alt="Decorative Image">
+        </section>
+        
+        <section id="halaman4" style="z-index: 10;"></section>
+        <section id="halaman5" style="z-index: 10;"></section>
+        <section id="halaman6" style="z-index: 10;"></section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
